@@ -1,7 +1,7 @@
-import { TodoUpdate } from './../models/TodoUpdate';
-import { UpdateTodoRequest } from './../../../client/src/types/UpdateTodoRequest';
-import { TodoItem } from './../models/TodoItem';
-import { deleteTodoItem, getAllTodos, setTodoAttachmentUrl, updateTodoItem } from './todosAcess'
+import { TodoUpdate } from '../models/TodoUpdate';
+import { UpdateTodoRequest } from '../../../client/src/types/UpdateTodoRequest';
+import { TodoItem } from '../models/TodoItem';
+import { deleteTodoItem, getAllTodos, setTodoAttachmentUrl, updateTodoItem } from '../dataLayer/todosAcess'
 // import { AttachmentUtils } from './attachmentUtils';
 import { CreateTodoRequest } from '../requests/CreateTodoRequest'
 // import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'

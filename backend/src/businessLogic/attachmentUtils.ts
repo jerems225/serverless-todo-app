@@ -1,6 +1,6 @@
 import * as AWS from 'aws-sdk';
 import { TodoItem } from '../models/TodoItem';
-import { updateTodoItemUrl} from './todosAcess';
+import { updateTodoItemUrl} from '../dataLayer/todosAcess';
 // TODO: Implement the fileStogare logic
 
 const AWSXRay = require('aws-xray-sdk');

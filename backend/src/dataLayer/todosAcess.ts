@@ -1,5 +1,5 @@
-import { TodoUpdate } from './../models/TodoUpdate';
-import { TodoItem } from './../models/TodoItem';
+import { TodoUpdate } from '../models/TodoUpdate';
+import { TodoItem } from '../models/TodoItem';
 import * as AWS from 'aws-sdk'
 import { DocumentClient } from 'aws-sdk/clients/dynamodb'
 import { createLogger } from '../utils/logger'
